@@ -5,7 +5,7 @@ import svgr from 'vite-plugin-svgr';
 
 // https://vite.dev/config/
 export default defineConfig({
-	base: '/My-react-portfolio-page',
+	base: '/portfolio',
 	plugins: [react(), svgr()],
 	server: {
 		historyApiFallback: true, // Обеспечивает корректную обработку маршрутов

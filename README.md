@@ -9,4 +9,4 @@ Live demo deployed on Vercel.
 
 ## Preview
 
-![Portfolio Preview](assets/Portfolio_scr.jpg)
+![Portfolio Preview](src/assets/Portfolio-scr.jpg)

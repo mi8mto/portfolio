@@ -16,8 +16,9 @@ const Header = () => {
 					<p>I enjoy turning ideas into clean and scalable code.</p>
 				</div>
 				<a
-					href="https://username.github.io/cv/Ihar_CV.pdf"
+					href="https://raw.githubusercontent.com/mi8mto/cv/main/Ihar_Manakhau_Frontend_Developer_CV.pdf"
 					target="_blank"
+					rel="noopener noreferrer"
 					className="btn"
 				>
 					Download CV

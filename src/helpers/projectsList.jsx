@@ -1,20 +1,23 @@
-import project01 from './../img/projects/01.jpg';
-import project01Big from './../img/projects/01-big.jpg';
+import project01 from './../img/projects/01.webp';
+import project01Big from './../img/projects/01-big.webp';
 
-import project02 from './../img/projects/02.png';
-import project02Big from './../img/projects/02-big.png';
+import project02 from './../img/projects/02.webp';
+import project02Big from './../img/projects/02-big.webp';
 
 import project03 from './../img/projects/03.webp';
 import project03Big from './../img/projects/03-big.webp';
 
-import project04 from './../img/projects/04.jpg';
-import project04Big from './../img/projects/04-big.jpg';
+import project04 from './../img/projects/04.webp';
+import project04Big from './../img/projects/04-big.webp';
 
-import project05 from './../img/projects/05.jpg';
-import project05Big from './../img/projects/05-big.jpg';
+import project05 from './../img/projects/05.webp';
+import project05Big from './../img/projects/05-big.webp';
 
-import project06 from './../img/projects/06.jpg';
-import project06Big from './../img/projects/06-big.jpg';
+import project06 from './../img/projects/06.webp';
+import project06Big from './../img/projects/06-big.webp';
+
+import project07 from './../img/projects/07.webp';
+import project07Big from './../img/projects/07-big.webp';
 
 const projects = [
 	{
@@ -48,6 +51,14 @@ const projects = [
 	},
 	{
 		id: 3,
+		title: 'EbookBuilder',
+		img: project07,
+		imgBig: project07Big,
+		skills: 'React, TypeScript, Next.js (App Router), Zustand, Tailwind CSS, LocalStorage API, Browser Print API, State Management, Undo/Redo System, Autosave with Debounce, Custom Pagination Engine, Block-Based Editor Architecture',
+		gitHubLink: 'https://ebook-builder-platform.vercel.app/',
+	},
+	{
+		id: 4,
 		title: 'Bubble chat',
 		img: project03,
 		imgBig: project03Big,
@@ -55,7 +66,7 @@ const projects = [
 		gitHubLink: 'https://github.com/mi8mto/BubbleChat',
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Bear Barber',
 		img: project04,
 		imgBig: project04Big,
@@ -63,7 +74,7 @@ const projects = [
 		gitHubLink: 'https://github.com/mi8mto/Bear_barber',
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Weather sounds',
 		img: project05,
 		imgBig: project05Big,
@@ -71,7 +82,7 @@ const projects = [
 		gitHubLink: 'https://github.com/mi8mto/weather-app-sounds',
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'Virtual keyboard',
 		img: project06,
 		imgBig: project06Big,
